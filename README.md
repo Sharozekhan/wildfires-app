@@ -6,7 +6,7 @@ wildfire_tracking_app/
 ├── controller/
 │   ├── ForestController.php
 ├── model/
-│   ├── ForestService.php
+│   ├── forestService.php
 ├── view/
 ├── index.php
 ├── .htaccess

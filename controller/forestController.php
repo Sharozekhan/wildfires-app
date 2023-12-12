@@ -14,6 +14,10 @@ class ForestController {
         return $forests;
     }
 
+    public function showForestDetails($forestName) {
+        $details = $this->forestService->getForestDetails($forestName);
+        return $details;
+    }
 }
 
 ?>
