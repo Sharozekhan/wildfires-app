@@ -10,7 +10,7 @@
         <?php
         // Include necessary files and instantiate the controller
         require_once '../config/db_connection.php'; 
-        require_once '../model/ForestService.php'; 
+        require_once '../model/forestService.php'; 
         require_once '../controller/ForestController.php'; 
 
         $db = Database::getConnection(); // Get the PDO instance
